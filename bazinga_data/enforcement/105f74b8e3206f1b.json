@@ -1,0 +1,32 @@
+{
+  "id": "105f74b8e3206f1b",
+  "artifact_type": "ViolationRecord",
+  "content_hash": "e8d78f93824c355d3e01362937a890b79baba3e207a3abdf344555cc4712765d",
+  "provenance_hash": "105f74b8e3206f1bd20bc8b46812c3f8cdcc94a118cacee08a3077a1aa364e89",
+  "timestamp": "2026-04-25T03:38:02.157521123+00:00",
+  "author": "Sovereign Shredder",
+  "copies": [
+    {
+      "location_type": "Local",
+      "path_or_uri": "bazinga_data/enforcement/105f74b8e3206f1b.json",
+      "written_at": "2026-04-25T03:38:02.157521123+00:00",
+      "verified": false
+    },
+    {
+      "location_type": "P2PCommons",
+      "path_or_uri": "ipfs://TODO:105f74b8e3206f1b",
+      "written_at": "2026-04-25T03:38:02.157521123+00:00",
+      "verified": false
+    },
+    {
+      "location_type": "ColdStorage",
+      "path_or_uri": "arweave://TODO:105f74b8e3206f1b",
+      "written_at": "2026-04-25T03:38:02.157521123+00:00",
+      "verified": false
+    }
+  ],
+  "metadata": {
+    "notice_id": "SHR-1745AA571C4E",
+    "respondent": "Test Respondent"
+  }
+}
