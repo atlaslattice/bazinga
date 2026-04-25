@@ -33,7 +33,7 @@ async fn main() {
     let cli = Cli::parse();
 
     // KINTSUJI GATE — mandatory first gate, all commands
-    // Dave's golden repair protocol: https://github.com/splitmerge420/Kintsuji-code-fixer-
+    // Dave's golden repair protocol: https://github.com/atlaslattice/Kintsuji-code-fixer-
     let command_str = format!("{:?}", cli.command);
     match engines::kintsuji_apl::KintsujiAPL::gate(&command_str).await {
         Ok(report) => {
