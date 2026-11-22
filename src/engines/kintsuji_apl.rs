@@ -2,7 +2,7 @@
 // The golden repair gate. Kintsuji: 金継ぎ — "golden joinery".
 // Broken things become stronger at the fracture.
 //
-// Dave's Kintsuji repo: https://github.com/splitmerge420/Kintsuji-code-fixer-
+// Dave's Kintsuji repo: https://github.com/atlaslattice/Kintsuji-code-fixer-
 // Built with Google AI Studio (Gemini-powered code repair)
 //
 // ARCHITECTURE NOTE (Constitutional Scribe, 2026-03-10):
@@ -53,7 +53,7 @@ impl KintsujiAPL {
     /// Returns Err if a hard constitutional violation is detected.
     pub async fn gate(command: &str) -> Result<KintsujiReport, String> {
         println!("⚡ KINTSUJI APL — golden repair gate");
-        println!("   Repo: https://github.com/splitmerge420/Kintsuji-code-fixer-");
+        println!("   Repo: https://github.com/atlaslattice/Kintsuji-code-fixer-");
 
         // Check for remote endpoint via environment variable
         let endpoint = std::env::var("KINTSUJI_ENDPOINT").ok()
